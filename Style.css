@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa;
+  }
+
+  /* การตั้งค่าพื้นหลังและกำหนดโครงสร้างพื้นฐานที่จำเป็น */
+  .calculator-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  /* กำหนดขนาดของกล่องพื้นที่ */
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* เส้นปะ 2 เส้นบน และล่างของ H1 */
+  h1 {
+    text-decoration: underline overline dotted red;
+  }
+
+  /* เส้นรอยยัย*/
+  .spelling-error {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+  }
+
+    /* เส้นตรง  */
+  .line-solid {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+  }
